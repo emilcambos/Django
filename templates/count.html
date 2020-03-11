@@ -1,0 +1,15 @@
+<a href='/'>Start again</a>
+<h1>There are {{Count}} words!!</h1>
+
+<h1>Full Text</h1>
+{{fulltext}}
+<br/>
+<h1>Word Count </br>
+
+{% for word, countw in worddictionary %}
+{{word}}
+<br/>
+{{countw}}
+<br/>
+{%endfor%}
+</h1>
